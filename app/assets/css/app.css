@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    color: var(--black);
+    background: var(--white);
+    font-family: var(--font);
+    /* font-variation-settings: "wght" var(--regular), "opsz" 18; */
+    font-size: var(--text);
+    line-height: 1.7;
+    letter-spacing: 0.05rem;
+    font-weight: var(--regular);
+    scroll-behavior: smooth;
+}
+
+a {
+    color: currentColor;
+    text-decoration: none;
+}
+
+.content-width {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.site-width {
+    padding-inline: var(--app-margin);
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "id": 2,
+    "country": "Pakistan",
+    "logo": "nrsp.jpg"
+  },
+  {
+    "id": 3,
+    "country": "Afghanistan",
+    "logo": "afghan-post.png"
+  },
+  {
+    "id": 4,
+    "country": "Pakistan",
+    "logo": "karachi-excise.png"
+  },
+  {
+    "id": 5,
+    "country": "Italy",
+    "logo": "milano.png"
+  },
+  {
+    "id": 6,
+    "country": "Pakistan",
+    "logo": "omega.png"
+  },
+  {
+    "id": 7,
+    "country": "Pakistan",
+    "logo": "thux.png"
+  }
+]

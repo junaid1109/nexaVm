@@ -1,0 +1,44 @@
+:root {
+    --font: "Roboto Flex", sans-serif;
+
+    --header-h1: clamp(2rem, 1.5rem + 3vw, 4.5rem);
+    /* --header-h2: 2.5rem; */
+    --header-h2: clamp(1rem, 1.5rem + 1vw, 2.5rem);
+    --header-h3: 2rem;
+    --subheader: 1.6rem;
+    /* --text: 1.07rem; */
+    --text: clamp(0.6rem, 0.6rem + 1vw, 1.07rem);
+    --text-small: 1rem;
+    --text-mini: 0.875rem;
+    --eyebrow-header: 0.7rem;
+
+    --bold: 500;
+    --regular: 300;
+    --light: 200;
+
+    /* colors */
+    --black: #111111;
+    --white: #fafafa;
+    --light-gray: #eceded;
+    --gray: #b7b7b7;
+    --dark-gray-1: #02252b;
+    --dark-gray-2: #00151c;
+    --dark-gray-3: #616161;
+    --accent-orange: #e85039;
+    --accent-blue: #00c1c8;
+
+    --accent-orange-hover: #d3432d;
+    --accent-blue-hover: #0aaaaf;
+
+    --app-margin: 55px;
+
+    --border-radius: 12px;
+
+    --app-margin-mobile: 24px;
+}
+
+@media screen and (max-width: 1200px) {
+    :root {
+        --app-margin: 24px;
+    }
+}

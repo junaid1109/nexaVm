@@ -1,0 +1,14 @@
+.fade-enter-active,
+.fade-leave-active {
+    transition: opacity 400ms ease-in-out;
+}
+.fade-enter-from,
+.fade-leave-to {
+    opacity: 0;
+}
+
+.list-enter-active,
+.list-leave-active {
+    /* transition: transform 400ms ease, opacity 200ms ease-in; */
+    transition: all 0.4s ease-in-out;
+}
