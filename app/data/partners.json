@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "company": "Jb Network",
+    "country": "Pakistan",
+    "partnerType": "Channel partners",
+    "logo": "1772552064340-hsxnjh.png"
+  },
+  {
+    "id": 2,
+    "company": "jbt",
+    "country": "Austria",
+    "partnerType": "Technology partners",
+    "logo": "1772553240044-55g2gj.png"
+  },
+  {
+    "id": 3,
+    "company": "paki thus",
+    "country": "Benin",
+    "partnerType": "Technology partners",
+    "logo": "1772553694173-r2hczn.png"
+  }
+]

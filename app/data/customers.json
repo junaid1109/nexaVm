@@ -5,14 +5,9 @@
     "logo": "nrsp.jpg"
   },
   {
-    "id": 3,
-    "country": "Afghanistan",
-    "logo": "afghan-post.png"
-  },
-  {
     "id": 4,
     "country": "Pakistan",
-    "logo": "karachi-excise.png"
+    "logo": "1772523171012-utxusd.png"
   },
   {
     "id": 5,
@@ -20,13 +15,98 @@
     "logo": "milano.png"
   },
   {
-    "id": 6,
-    "country": "Pakistan",
-    "logo": "omega.png"
+    "id": 7,
+    "country": "Italy",
+    "logo": "thux.png"
   },
   {
-    "id": 7,
+    "id": 8,
+    "country": "Italy",
+    "logo": "1770805572759-dy081r.jpg"
+  },
+  {
+    "id": 9,
+    "country": "Saudi Arabia",
+    "logo": "1772523192695-e23v2q.webp"
+  },
+  {
+    "id": 10,
+    "country": "swizterland",
+    "logo": "1772523240363-lyjnm.png"
+  },
+  {
+    "id": 11,
+    "country": "Italy",
+    "logo": "1772523259264-hl035.jpg"
+  },
+  {
+    "id": 12,
+    "country": "Italy",
+    "logo": "1772523269330-5ncmzb.png"
+  },
+  {
+    "id": 13,
+    "country": "Italy",
+    "logo": "1772523283174-7z9ywg.webp"
+  },
+  {
+    "id": 14,
+    "country": "Italy",
+    "logo": "1772523309446-vpln8j.png"
+  },
+  {
+    "id": 15,
+    "country": "Saudi Arabia",
+    "logo": "1772523441875-tibgmg.png"
+  },
+  {
+    "id": 16,
+    "country": "Italy",
+    "logo": "1772523457040-4lvdnv.png"
+  },
+  {
+    "id": 17,
     "country": "Pakistan",
-    "logo": "thux.png"
+    "logo": "1772523651935-49i61.jpeg"
+  },
+  {
+    "id": 18,
+    "country": "Pakistan",
+    "logo": "1772523665446-0m5ys.png"
+  },
+  {
+    "id": 19,
+    "country": "Italy",
+    "logo": "1772523742035-dcd8xd.webp"
+  },
+  {
+    "id": 20,
+    "country": "Italy",
+    "logo": "1772523867676-a8pbap.jpeg"
+  },
+  {
+    "id": 21,
+    "country": "Afghanistan",
+    "logo": "1772523916259-m6r03.png"
+  },
+  {
+    "id": 22,
+    "country": "Italy",
+    "logo": "1772524210129-821wrh.jpeg"
+  },
+  {
+    "id": 23,
+    "country": "Italy",
+    "logo": "1772524222968-rrptt.jpeg"
+  },
+  {
+    "id": 24,
+    "country": "Italy",
+    "logo": "1772524249227-tb9uq4.png"
+  },
+  {
+    "id": 25,
+    "country": "Italy",
+    "logo": "1772524336978-e00wbo.jpg"
   }
 ]

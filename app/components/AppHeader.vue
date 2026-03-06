@@ -81,7 +81,17 @@ function toggleSub(name: string) {
           </li>
 
           <li class="item"><NuxtLink class="link" to="/company">{{ $t('Company') }}</NuxtLink></li>
-          <li class="item"><NuxtLink class="link" to="/become-a-partner">{{ $t('partner') }}</NuxtLink></li>
+          
+          <li class="item has-sub">
+            <span class="link">{{ $t('partner') }}</span>
+            <Icon name="local:chevron-down" class="CaretDown" />
+            <ul class="submenu">
+              <li><NuxtLink to="/become-a-partner">Become a Partner</NuxtLink></li>
+              <li><NuxtLink to="/partners/technology">Technology Partner</NuxtLink></li>
+              <li><NuxtLink to="/partners/channel">Channel Partner</NuxtLink></li>
+            </ul>
+          </li>
+          
           <li class="item"><NuxtLink class="link" to="/compatibility">{{ $t('compatibility') }}</NuxtLink></li>
           <li class="item"><NuxtLink class="link" to="/annoucements">{{ $t('annoucement') }}</NuxtLink></li>
           <li class="item"><NuxtLink class="link" to="/customers">{{ $t('our-customers') }}</NuxtLink></li>
@@ -137,7 +147,16 @@ function toggleSub(name: string) {
         </li>
 
         <li class="item"><NuxtLink class="link" to="/company">{{ $t('Company') }}</NuxtLink></li>
-        <li class="item"><NuxtLink class="link" to="/become-a-partner">{{ $t('partner') }}</NuxtLink></li>
+        
+        <li class="item" @click="toggleSub('partners')" :class="{ open: openSub === 'partners' }">
+          <span class="link">{{ $t('partner') }}</span>
+          <ul class="submenu">
+            <li><NuxtLink to="/become-a-partner">Become a Partner</NuxtLink></li>
+            <li><NuxtLink to="/partners/technology">Technology Partner</NuxtLink></li>
+            <li><NuxtLink to="/partners/channel">Channel Partner</NuxtLink></li>
+          </ul>
+        </li>
+        
         <li class="item"><NuxtLink class="link" to="/compatibility">{{ $t('compatibility') }}</NuxtLink></li>
         <li class="item"><NuxtLink class="link" to="/customers">{{ $t('our-customers') }}</NuxtLink></li>
 
@@ -290,10 +309,28 @@ li a:hover {
     position: static;
     background: transparent;
     padding-left: 1rem;
+    display: none;
+    list-style: none;
+    margin: 0;
+    padding-left: 1rem;
   }
 
   .mobile-menu .item.open > .submenu {
+    display: block !important;
+  }
+
+  .mobile-menu .submenu li {
+    padding: 8px 0;
+  }
+
+  .mobile-menu .submenu li a {
+    color: #fff;
+    text-decoration: none;
     display: block;
+  }
+
+  .mobile-menu .submenu li a:hover {
+    color: #e85039;
   }
 
   .mobile-buttons {

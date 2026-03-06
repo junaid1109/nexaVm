@@ -21,6 +21,10 @@
           Customers
         </NuxtLink>
 
+        <NuxtLink to="/admin/partners" exact-active-class="active">
+          Partners
+        </NuxtLink>
+
         <a href="#" @click.prevent="logout">Logout</a>
       </ClientOnly>
     </aside>
