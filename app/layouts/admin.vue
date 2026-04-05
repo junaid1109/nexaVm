@@ -25,6 +25,10 @@
           Partners
         </NuxtLink>
 
+        <NuxtLink to="/admin/blog" exact-active-class="active">
+          Blogs
+        </NuxtLink>
+
         <a href="#" @click.prevent="logout">Logout</a>
       </ClientOnly>
     </aside>

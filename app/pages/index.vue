@@ -4,6 +4,7 @@
 	<CardFacts />
 	<HomepageFeatures />
 	<CustomerSlides />
+  <AppQuote />
 	
 	</div>
 </template>

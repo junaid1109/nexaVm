@@ -44,6 +44,8 @@ function toggleDropdown(name: string) {
       <li class="menu-item"><NuxtLink to="/become-a-partner">Partner</NuxtLink></li>
       <li class="menu-item"><NuxtLink to="/compatibility">Compatibility</NuxtLink></li>
       <li class="menu-item"><NuxtLink to="/annoucements">Announcements</NuxtLink></li>
+      <li class="menu-item"><NuxtLink to="/blogs"> Blogs</NuxtLink></li>
+
     </ul>
 
     <!-- Buttons -->

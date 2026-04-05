@@ -40,33 +40,33 @@ function toggleSub(name: string) {
       <nav class="nav desktop">
         <ul class="menu">
           <!-- Products -->
-			<li class="item has-sub">
-				<span class="link">{{ $t('Products') }}</span>
-                    <Icon name="local:chevron-down" class="CaretDown" />
+        <li class="item has-sub">
+          <span class="link">{{ $t('Products') }}</span>
+                      <Icon name="local:chevron-down" class="CaretDown" />
 
-				<ul class="submenu">
-					<li>
-							<NuxtLink :to="$localePath(`/products#${$t('Virtualization')}`)"  >
-								{{ $t('Virtualization') }}
-							</NuxtLink>
-					</li>
-					<li>
-							<NuxtLink :to="$localePath(`/products#${$t('Multicloud')}`)">{{ $t('Multicloud') }}
-							</NuxtLink>
-					</li>
-					<li>
-							<NuxtLink :to="$localePath(`/products#${$t('Software-Defined-Storage')}`)">
-								{{ $t('Software-Defined-Storage') }}
-							</NuxtLink>
-					</li>
-					<li>
-							<NuxtLink :to="$localePath(`/products#${$t('VDI')}`)">{{ $t('VDI') }}</NuxtLink>
-					</li>
-					<li>
-							<NuxtLink :to="$localePath(`https://hive.nexavm.com/category/8/documentation`)">{{ $t('Documentation') }}</NuxtLink>
-					</li>
-				</ul>
-			</li>
+          <ul class="submenu">
+            <li>
+                <NuxtLink :to="$localePath(`/products#${$t('Virtualization')}`)"  >
+                  {{ $t('Virtualization') }}
+                </NuxtLink>
+            </li>
+            <li>
+                <NuxtLink :to="$localePath(`/products#${$t('Multicloud')}`)">{{ $t('Multicloud') }}
+                </NuxtLink>
+            </li>
+            <li>
+                <NuxtLink :to="$localePath(`/products#${$t('Software-Defined-Storage')}`)">
+                  {{ $t('Software-Defined-Storage') }}
+                </NuxtLink>
+            </li>
+            <li>
+                <NuxtLink :to="$localePath(`/products#${$t('VDI')}`)">{{ $t('VDI') }}</NuxtLink>
+            </li>
+            <li>
+                <NuxtLink :to="$localePath(`https://hive.nexavm.com/category/8/documentation`)">{{ $t('Documentation') }}</NuxtLink>
+            </li>
+          </ul>
+        </li>
 
           <!-- Resources -->
           <li class="item has-sub">
@@ -95,6 +95,8 @@ function toggleSub(name: string) {
           <li class="item"><NuxtLink class="link" to="/compatibility">{{ $t('compatibility') }}</NuxtLink></li>
           <li class="item"><NuxtLink class="link" to="/annoucements">{{ $t('annoucement') }}</NuxtLink></li>
           <li class="item"><NuxtLink class="link" to="/customers">{{ $t('our-customers') }}</NuxtLink></li>
+          <li class="item"><NuxtLink to="/blogs"> {{ $t('Blog') }}</NuxtLink></li>
+
         </ul>
       </nav>
 
@@ -158,7 +160,9 @@ function toggleSub(name: string) {
         </li>
         
         <li class="item"><NuxtLink class="link" to="/compatibility">{{ $t('compatibility') }}</NuxtLink></li>
+        <li class="item"><NuxtLink class="link" to="/annoucements">{{ $t('annoucement') }}</NuxtLink></li>
         <li class="item"><NuxtLink class="link" to="/customers">{{ $t('our-customers') }}</NuxtLink></li>
+        <li class="item"><NuxtLink to="/blogs"> {{ $t('Blog') }}</NuxtLink></li>
 
         <!-- MOBILE buttons -->
         <li class="mobile-buttons">

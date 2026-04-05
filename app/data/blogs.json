@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "title": "Welcome to NexaVM Blogip",
+    "description": "This is the first blog post about NexaVM",
+    "content": "<b>Welcome </b>to our blog where we share the latest updates and insights about NexaVM.<div><ul><li>Junaid</li><li>bhatti</li><li>sahib&nbsp;</li><li>bhai</li></ul></div>",
+    "date": "2026-04-01",
+    "image": "/uploads/blogs/1-1775412860613-1772717793_69a986e18b8aa.jpg",
+    "category": "News",
+    "status": "published"
+  },
+  {
+    "id": 2,
+    "title": "second",
+    "description": "blow",
+    "content": "uuidhs bhshhaiu bhasih",
+    "date": "2026-04-02",
+    "image": "/uploads/blogs/2-1775409358719-V6bEd3RYK9Z00llMHZmORYr69VZ99oUAzKSODp88.jpg",
+    "category": "General",
+    "status": "published"
+  }
+]
