@@ -7,7 +7,7 @@ import { useMediaQuery, useScrollLock } from '@vueuse/core'
 const { locale, locales } = useI18n()
 const switchLocalePath = useSwitchLocalePath()
 
-const isMobile = useMediaQuery('(max-width: 1200px)')
+const isMobile = useMediaQuery('(max-width: 1100px)')
 const menuOpen = ref(false)
 const openSub = ref<string | null>(null)
 
@@ -33,7 +33,7 @@ function toggleSub(name: string) {
     <div class="inner">
       <!-- Logo -->
       <NuxtLink to="/" class="logo">
-        <Icon name="local:logo" size="36px" />
+        <Icon name="local:logo" size="28px" />
       </NuxtLink>
 
       <!-- Desktop menu -->
@@ -189,7 +189,8 @@ function toggleSub(name: string) {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0.75rem 1rem;
+  padding: 0.4rem 0.5rem;
+  flex-wrap: wrap;
 }
 
 .logo {
@@ -200,20 +201,29 @@ function toggleSub(name: string) {
 /* MENU */
 .menu {
   display: flex;
-  gap: 1.5rem;
+  gap: 0.4rem;
   list-style: none;
   margin: 0;
   padding: 0;
+  flex-wrap: nowrap;
+  flex-shrink: 1;
+  min-width: 0;
 }
 
 .item {
   position: relative;
+  flex-shrink: 1;
+  min-width: 0;
 }
 
 .link {
   color: #fff;
   cursor: pointer;
   text-decoration: none;
+  white-space: nowrap;
+  font-size: 0.9rem;
+  display: block;
+  padding: 0.25rem 0;
 }
 
 /* DESKTOP SUBMENU */
@@ -227,20 +237,20 @@ function toggleSub(name: string) {
   top: 100%;
   left: 0;
   background: #00151c;
-  border-radius: 8px;
-  min-width: 220px;
-  padding: 0.5rem 0;
-  list-style: none; /* ← remove bullets */
-  margin: 0;         /* ← remove default margin */
+  border-radius: 6px;
+  min-width: 180px;
+  padding: 0.3rem 0;
+  list-style: none;
+  margin: 0;
 }
 
 .submenu li a {
   display: block;
-  padding: 10px 16px;
+  padding: 8px 12px;
   color: #fff;
   text-decoration: none;
- list-style: none;
-
+  list-style: none;
+  font-size: 0.8rem;
 }
 
 li a:hover {
@@ -256,13 +266,15 @@ li a:hover {
 .utils {
   display: flex;
   align-items: center;
-  gap: 0.75rem;
+  gap: 0.3rem;
+  flex-shrink: 0;
 }
 
 .langs a {
   color: #fff;
-  margin-right: 6px;
+  margin-right: 4px;
   text-decoration: none;
+  font-size: 0.8rem;
 }
 
 .langs a.active {
@@ -272,10 +284,13 @@ li a:hover {
 .btn {
   background: #e85039;
   color: #fff;
-  padding: 10px 16px;
-  border-radius: 8px;
+  padding: 5px 10px;
+  border-radius: 6px;
   text-decoration: none;
   font-weight: 500;
+  font-size: 0.85rem;
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 
 .burger {
@@ -289,7 +304,7 @@ li a:hover {
   display: none;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1050px) {
   .desktop {
     display: none;
   }
@@ -342,6 +357,26 @@ li a:hover {
     flex-direction: column;
     gap: 12px;
     margin-top: 1rem;
+  }
+}
+
+/* Ultra-compressed for extreme zoom (150%+) */
+@media (max-width: 950px) {
+  .link {
+    font-size: 0.7rem;
+  }
+
+  .menu {
+    gap: 0.3rem;
+  }
+
+  .btn {
+    padding: 4px 8px;
+    font-size: 0.65rem;
+  }
+
+  .inner {
+    padding: 0.3rem 0.4rem;
   }
 }
 </style>

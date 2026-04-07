@@ -102,7 +102,6 @@ onMounted(() => {
   align-items: center;
   justify-content: center;
   background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
-  width: 100vw;
   margin-left: calc(-50vw + 50%);
 }
 
