@@ -3,9 +3,10 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "build": "cross-env NODE_OPTIONS=\"--no-deprecation\" nuxt build",
-    "dev": "cross-env NODE_OPTIONS=\"--no-deprecation\" nuxt dev",
-    "generate": "cross-env NODE_OPTIONS=\"--no-deprecation\" nuxt generate",
+    "sync-data": "powershell -ExecutionPolicy Bypass -File ./scripts/sync-data.ps1",
+    "dev": "npm run sync-data && cross-env NODE_OPTIONS=\"--no-deprecation\" nuxt dev",
+    "build": "npm run sync-data && cross-env NODE_OPTIONS=\"--no-deprecation\" nuxt build",
+    "generate": "npm run sync-data && cross-env NODE_OPTIONS=\"--no-deprecation\" nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
