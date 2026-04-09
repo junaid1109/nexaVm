@@ -109,7 +109,7 @@
             <!-- Image Preview -->
             <div v-if="currentBlog.imageFile || currentBlog.image" class="image-preview">
               <img 
-                :src="currentBlog.imageFile ? URL.createObjectURL(currentBlog.imageFile) : currentBlog.image" 
+                :src="imagePreviewUrl" 
                 :alt="currentBlog.title || 'Blog image'"
                 class="preview-img"
               />
@@ -188,6 +188,13 @@ const contentEditor = ref<HTMLElement | null>(null)
 
 const filteredBlogs = computed(() => {
   return blogs.value.filter(blog => blog.status === activeTab.value)
+})
+
+const imagePreviewUrl = computed(() => {
+  if (currentBlog.value.imageFile && typeof URL !== 'undefined') {
+    return URL.createObjectURL(currentBlog.value.imageFile)
+  }
+  return currentBlog.value.image || ''
 })
 
 function showSuccess(msg: string) {

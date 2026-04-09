@@ -1,22 +1,12 @@
 [
   {
     "id": 1,
-    "title": "Welcome to NexaVM Blogip",
-    "description": "This is the first blog post about NexaVM",
-    "content": "<b>Welcome </b>to our blog where we share the latest updates and insights about NexaVM.<div><ul><li>Junaid</li><li>bhatti</li><li>sahib&nbsp;</li><li>bhai</li></ul></div>",
-    "date": "2026-04-01",
-    "image": "/uploads/blogs/1-1775412860613-1772717793_69a986e18b8aa.jpg",
+    "title": "NexaVM Hypervisor Integrate Veeam backup agentless",
+    "description": "Veeam agentless backup integration with NexaVM Hypervisor",
+    "content": "<span style=\"color: rgb(45, 55, 72); font-size: 18px; letter-spacing: 0.856px; white-space: pre-wrap;\">We are excited to announce that NexaVM Hypervisor will officially release the integration with Veeam&nbsp;</span><span style=\"color: rgb(45, 55, 72); font-size: 18px; white-space: pre-wrap; letter-spacing: 0.856px;\">agentless&nbsp;</span><span style=\"color: rgb(45, 55, 72); font-size: 18px; letter-spacing: 0.856px; white-space: pre-wrap;\">backup and recovery.&nbsp;</span><div style=\"color: rgb(45, 55, 72); font-size: 18px; letter-spacing: 0.856px; white-space: pre-wrap;\"><br></div><div style=\"color: rgb(45, 55, 72); font-size: 18px; letter-spacing: 0.856px; white-space: pre-wrap;\">Thanks to NexaVM Open and well structured API the integration process was smooth and backup performance is very good.&nbsp;</div><div style=\"color: rgb(45, 55, 72); font-size: 18px; letter-spacing: 0.856px; white-space: pre-wrap;\"><br></div><div style=\"color: rgb(45, 55, 72); font-size: 18px; letter-spacing: 0.856px; white-space: pre-wrap;\">The release date will be mid of May 2026.</div>",
+    "date": "2026-04-09",
+    "image": "",
     "category": "News",
-    "status": "published"
-  },
-  {
-    "id": 2,
-    "title": "second",
-    "description": "blow",
-    "content": "uuidhs bhshhaiu bhasih",
-    "date": "2026-04-02",
-    "image": "/uploads/blogs/2-1775409358719-V6bEd3RYK9Z00llMHZmORYr69VZ99oUAzKSODp88.jpg",
-    "category": "General",
     "status": "published"
   }
 ]

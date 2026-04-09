@@ -1,23 +1,275 @@
 [
-  {
-    "id": 1,
-    "company": "Jb Network",
-    "country": "Pakistan",
-    "partnerType": "Channel partners",
-    "logo": "1772552064340-hsxnjh.png"
-  },
-  {
-    "id": 2,
-    "company": "jbt",
-    "country": "Austria",
-    "partnerType": "Technology partners",
-    "logo": "1772553240044-55g2gj.png"
-  },
-  {
-    "id": 3,
-    "company": "paki thus",
-    "country": "Benin",
-    "partnerType": "Technology partners",
-    "logo": "1772553694173-r2hczn.png"
-  }
+    {
+        "id": 1,
+        "company": "OmegaGroup",
+        "country": "Italy",
+        "partnerType": "Technology partners",
+        "logo": "1775588882159-5db1dl.png"
+    },
+    {
+        "id": 2,
+        "company": "Everpure",
+        "country": "USA",
+        "partnerType": "Technology partners",
+        "logo": "1775589521228-p3008.png"
+    },
+    {
+        "id": 3,
+        "company": "Inix SRL",
+        "country": "Italy",
+        "partnerType": "Technology partners",
+        "logo": "1775589560375-75t00c.png"
+    },
+    {
+        "id": 4,
+        "company": "First Distribution",
+        "country": "South Africa",
+        "partnerType": "Channel partners",
+        "logo": "1775589618777-45sra.png"
+    },
+    {
+        "id": 5,
+        "company": "Hemitage",
+        "country": "France",
+        "partnerType": "Channel partners",
+        "logo": "1775589676150-g207sd.png"
+    },
+    {
+        "id": 6,
+        "company": "NextGen Distribution",
+        "country": "Italy",
+        "partnerType": "Channel partners",
+        "logo": "1775589715835-0ijki6.png"
+    },
+    {
+        "id": 7,
+        "company": "Cyberdisti",
+        "country": "UAE",
+        "partnerType": "Channel partners",
+        "logo": "1775589767826-bx889.png"
+    },
+    {
+        "id": 8,
+        "company": "Zigiwave",
+        "country": "Bulgaria",
+        "partnerType": "Technology partners",
+        "logo": "1775589801058-abg34n.png"
+    },
+    {
+        "id": 9,
+        "company": "SentinelOne",
+        "country": "USA",
+        "partnerType": "Technology partners",
+        "logo": "1775589878806-gnu5og.svg"
+    },
+    {
+        "id": 10,
+        "company": "Astrontech",
+        "country": "Pakistan",
+        "partnerType": "Channel partners",
+        "logo": "1775589915722-59x0ba.png"
+    },
+    {
+        "id": 11,
+        "company": "Awais international",
+        "country": "Pakistan",
+        "partnerType": "Channel partners",
+        "logo": "1775590004511-c9h4y.jpg"
+    },
+    {
+        "id": 12,
+        "company": "Techaccess",
+        "country": "Pakistan",
+        "partnerType": "Channel partners",
+        "logo": "1775590043341-yvnbnf.png"
+    },
+    {
+        "id": 13,
+        "company": "Tech6",
+        "country": "Pakistan",
+        "partnerType": "Technology partners",
+        "logo": "1775590074503-hqmvcq.png"
+    },
+    {
+        "id": 14,
+        "company": "Escape",
+        "country": "Pakistan",
+        "partnerType": "Channel partners",
+        "logo": "1775590110696-ojizt5.png"
+    },
+    {
+        "id": 15,
+        "company": "Cyberdisti",
+        "country": "India",
+        "partnerType": "Channel partners",
+        "logo": "1775590156156-jli2c.png"
+    },
+    {
+        "id": 16,
+        "company": "Network Techlab",
+        "country": "India",
+        "partnerType": "Channel partners",
+        "logo": "1775590198800-5tuy1.png"
+    },
+    {
+        "id": 17,
+        "company": "LocalDisti SRO",
+        "country": "Czech Republic",
+        "partnerType": "Channel partners",
+        "logo": "1775590259385-sohmxq.png"
+    },
+    {
+        "id": 18,
+        "company": "Broadpeak International",
+        "country": "Afghanistan",
+        "partnerType": "Channel partners",
+        "logo": "1775590289941-6r3ao.png"
+    },
+    {
+        "id": 19,
+        "company": "Inix",
+        "country": "Italy",
+        "partnerType": "Channel partners",
+        "logo": "1775590321566-ewe4cq.png"
+    },
+    {
+        "id": 20,
+        "company": "Project",
+        "country": "Italy",
+        "partnerType": "Channel partners",
+        "logo": "1775590352629-ssr3no.png"
+    },
+    {
+        "id": 21,
+        "company": "DSC",
+        "country": "Italy",
+        "partnerType": "Channel partners",
+        "logo": "1775590390878-x9ut4.png"
+    },
+    {
+        "id": 22,
+        "company": "Comtel",
+        "country": "Italy",
+        "partnerType": "Channel partners",
+        "logo": "1775590475425-nbcl6.png"
+    },
+    {
+        "id": 23,
+        "company": "OA Service",
+        "country": "Italy",
+        "partnerType": "Channel partners",
+        "logo": "1775590519065-0b642.png"
+    },
+    {
+        "id": 24,
+        "company": "Al Rostamani Communication",
+        "country": "UAE",
+        "partnerType": "Channel partners",
+        "logo": "1775590552235-mbxk8g.png"
+    },
+    {
+        "id": 25,
+        "company": "Wahadatbit",
+        "country": "Afghanistan",
+        "partnerType": "Channel partners",
+        "logo": "1775590580531-63m92v.png"
+    },
+    {
+        "id": 26,
+        "company": "Boston",
+        "country": "Germany",
+        "partnerType": "Technology partners",
+        "logo": "1775590614976-ffw8xt.png"
+    },
+    {
+        "id": 27,
+        "company": "Boston",
+        "country": "Germany",
+        "partnerType": "Channel partners",
+        "logo": "1775590647043-flxyu7.png"
+    },
+    {
+        "id": 28,
+        "company": "IOCO",
+        "country": "South Africa",
+        "partnerType": "Channel partners",
+        "logo": "1775590680125-2ak0d.png"
+    },
+    {
+        "id": 29,
+        "company": "Netorange",
+        "country": "Italy",
+        "partnerType": "Channel partners",
+        "logo": "1775590710567-iehsyv.png"
+    },
+    {
+        "id": 30,
+        "company": "R1",
+        "country": "Italy",
+        "partnerType": "Channel partners",
+        "logo": "1775590754498-x4d3rg.png"
+    },
+    {
+        "id": 31,
+        "company": "Premier System",
+        "country": "Pakistan",
+        "partnerType": "Channel partners",
+        "logo": "1775590795946-3xez1j.png"
+    },
+    {
+        "id": 32,
+        "company": "ABM",
+        "country": "Pakistan",
+        "partnerType": "Channel partners",
+        "logo": "1775590834564-ikbr6w.png"
+    },
+    {
+        "id": 33,
+        "company": "Extreme Networks",
+        "country": "Italy",
+        "partnerType": "Technology partners",
+        "logo": "1775590969687-1kpo5o.png"
+    },
+    {
+        "id": 34,
+        "company": "Dynatrace",
+        "country": "USA",
+        "partnerType": "Technology partners",
+        "logo": "1775591006210-2pw8ee.png"
+    },
+    {
+        "id": 35,
+        "company": "Fast Microsystem",
+        "country": "Italy",
+        "partnerType": "Channel partners",
+        "logo": "1775591038168-2xaunn.png"
+    },
+    {
+        "id": 36,
+        "company": "Omegalab",
+        "country": "Italy",
+        "partnerType": "Channel partners",
+        "logo": "1775591073781-zs6s3w.png"
+    },
+    {
+        "id": 37,
+        "company": "Seurdata",
+        "country": "Switzerland",
+        "partnerType": "Channel partners",
+        "logo": "1775591133701-3pa5v7.png"
+    },
+    {
+        "id": 38,
+        "company": "Enterprise Solutions",
+        "country": "Italy",
+        "partnerType": "Channel partners",
+        "logo": "1775591163109-u6ro0l.gif"
+    },
+    {
+        "id": 39,
+        "company": "SGBOX",
+        "country": "Italy",
+        "partnerType": "Technology partners",
+        "logo": "1775591193796-uxigt.png"
+    }
 ]
