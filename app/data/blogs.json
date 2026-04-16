@@ -1,12 +1,22 @@
 [
-  {
-    "id": 1,
-    "title": "NexaVM Hypervisor Integrate Veeam backup agentless",
-    "description": "Veeam agentless backup integration with NexaVM Hypervisor",
-    "content": "<span style=\"color: rgb(45, 55, 72); font-size: 18px; letter-spacing: 0.856px; white-space: pre-wrap;\">We are excited to announce that NexaVM Hypervisor will officially release the integration with Veeam&nbsp;</span><span style=\"color: rgb(45, 55, 72); font-size: 18px; white-space: pre-wrap; letter-spacing: 0.856px;\">agentless&nbsp;</span><span style=\"color: rgb(45, 55, 72); font-size: 18px; letter-spacing: 0.856px; white-space: pre-wrap;\">backup and recovery.&nbsp;</span><div style=\"color: rgb(45, 55, 72); font-size: 18px; letter-spacing: 0.856px; white-space: pre-wrap;\"><br></div><div style=\"color: rgb(45, 55, 72); font-size: 18px; letter-spacing: 0.856px; white-space: pre-wrap;\">Thanks to NexaVM Open and well structured API the integration process was smooth and backup performance is very good.&nbsp;</div><div style=\"color: rgb(45, 55, 72); font-size: 18px; letter-spacing: 0.856px; white-space: pre-wrap;\"><br></div><div style=\"color: rgb(45, 55, 72); font-size: 18px; letter-spacing: 0.856px; white-space: pre-wrap;\">The release date will be mid of May 2026.</div>",
-    "date": "2026-04-09",
-    "image": "",
-    "category": "News",
-    "status": "published"
-  }
+    {
+        "id": 2,
+        "title": "teset",
+        "description": "ttsy",
+        "content": "tetsv uiyis",
+        "date": "2026-04-09",
+        "image": "",
+        "category": "General",
+        "status": "draft"
+    },
+    {
+        "id": 3,
+        "title": "NexaVM Expands Terraform Automation to Replace VMware ",
+        "description": "NexaVM Hypervisor expands Terraform Scripting support",
+        "content": "<p><span style=\"letter-spacing: 0.05rem;\">NexaVM Expands Terraform Automation and Replaced VMware in Large Postal Organization</span></p><p>In the evolving landscape of enterprise virtualization, automation has become the defining factor separating legacy platforms from next-generation infrastructure solutions. NexaVM has taken a major step forward by extending its Terraform integration to cover nearly all operations of its hypervisor platform—enabling a level of automation maturity that has now proven capable of replacing VMware in large-scale production environments.</p><h4>Full-Stack Infrastructure as Code</h4><p>Traditionally, virtualization platforms offered only partial automation capabilities—typically limited to virtual machine provisioning. NexaVM has gone significantly further. By expanding Terraform support across almost the entire lifecycle of the platform, NexaVM enables Infrastructure as Code (IaC) for:</p><ul><li><p>Virtual machine provisioning and lifecycle management</p></li><li><p>Network configuration and orchestration</p></li><li><p>Storage allocation and policy management</p></li><li><p>Snapshot, backup, and disaster recovery workflows</p></li><li><p>Cluster scaling and resource balancing</p></li><li><p>Security policies and access control</p></li></ul><p>This comprehensive coverage allows IT teams to manage the entire infrastructure declaratively, eliminating the need for manual intervention and reducing operational complexity.</p><h4>Replacing VMware in a Mission-Critical Environment</h4><p>This enhanced automation capability was recently validated in a large postal organization, where NexaVM successfully replaced a legacy VMware environment. The organization faced several challenges common in large public-sector infrastructures:</p><ul><li><p>High operational overhead due to manual processes</p></li><li><p>Limited automation flexibility in existing VMware tooling</p></li><li><p>Increasing licensing and operational costs</p></li><li><p>Need for standardized, repeatable deployment models</p></li></ul><p>By leveraging NexaVM’s Terraform-based automation, the organization achieved a full transition with minimal disruption. Infrastructure provisioning, which previously required multiple teams and manual coordination, is now executed through version-controlled Terraform scripts.</p><h4>Key Benefits Achieved</h4><p>The deployment delivered measurable improvements across multiple dimensions:</p><p><strong>1. Operational Efficiency</strong><br>Automated workflows replaced manual configuration tasks, significantly reducing deployment time and human error.</p><p><strong>2. Consistency and Compliance</strong><br>All infrastructure is defined as code, ensuring consistent environments across development, testing, and production while simplifying audit and compliance processes.</p><p><strong>3. Cost Optimization</strong><br>By eliminating VMware licensing dependencies and streamlining operations, the organization achieved substantial cost savings.</p><p><strong>4. Scalability and Agility</strong><br>New environments can be deployed in minutes rather than days, enabling faster response to business demands.</p><p><strong>5. Vendor Independence</strong><br>The adoption of open standards like Terraform reduces vendor lock-in and provides long-term strategic flexibility.</p><h4>A Shift Toward Automation-First Virtualization</h4><p>NexaVM’s approach reflects a broader industry shift: virtualization platforms are no longer evaluated solely on performance or stability, but on how well they integrate into automated, cloud-like operational models.</p><p>By enabling near-complete Terraform control, NexaVM effectively transforms the hypervisor into a programmable platform—aligning it with modern DevOps and platform engineering practices.</p><h4>Looking Ahead</h4><p>As enterprises continue to modernize their infrastructure, the ability to fully automate and standardize operations will become a baseline requirement rather than a competitive advantage. NexaVM’s success in replacing VMware in a large-scale, mission-critical organization demonstrates that this future is already here.</p><p>With its deep Terraform integration and automation-first design, NexaVM is positioning itself as a compelling alternative for organizations seeking to reduce complexity, control costs, and accelerate their digital transformation.</p>",
+        "date": "2026-04-10",
+        "image": "",
+        "category": "General",
+        "status": "published"
+    }
 ]

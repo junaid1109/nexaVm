@@ -191,7 +191,7 @@ const filteredBlogs = computed(() => {
 })
 
 const imagePreviewUrl = computed(() => {
-  if (currentBlog.value.imageFile && typeof URL !== 'undefined') {
+  if (typeof window !== 'undefined' && currentBlog.value.imageFile) {
     return URL.createObjectURL(currentBlog.value.imageFile)
   }
   return currentBlog.value.image || ''

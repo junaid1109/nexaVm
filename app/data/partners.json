@@ -271,5 +271,41 @@
         "country": "Italy",
         "partnerType": "Technology partners",
         "logo": "1775591193796-uxigt.png"
+    },
+
+    {
+        "id": 40,
+        "company": "Lenovo",
+        "country": "USA",
+        "partnerType": "Technology partners",
+        "logo": "1775757944252-3w00lu.png"
+    },
+    {
+        "id": 41,
+        "company": "Dell",
+        "country": "USA",
+        "partnerType": "Technology partners",
+        "logo": "1775757961632-uc8ni4.png"
+    },
+    {
+        "id": 42,
+        "company": "ASUS",
+        "country": "Italy",
+        "partnerType": "Technology partners",
+        "logo": "1775757984587-1hrtzp.png"
+    },
+    {
+        "id": 43,
+        "company": "Xfusion",
+        "country": "Italy",
+        "partnerType": "Technology partners",
+        "logo": "1775758004112-dl3aa3.png"
+    },
+    {
+        "id": 44,
+        "company": "ZTE",
+        "country": "Swizterland",
+        "partnerType": "Technology partners",
+        "logo": "1775758078428-gs2aoq.png"
     }
 ]
