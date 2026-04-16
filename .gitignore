@@ -23,10 +23,3 @@ logs
 .env.*
 !.env.example
 
-# Data files - managed separately in nexaVm-data repo
-app/data/blogs.json
-app/data/boxes.json
-app/data/customers.json
-app/data/offices.json
-app/data/partners.json
-app/data/admin.json
